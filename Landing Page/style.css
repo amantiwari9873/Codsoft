@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: hsl(344, 14%, 39%);
+    display: flex;
+}
+#part1{
+    height: 100%;
+    width: 26%;
+    /*background-color: red;*/
+}
+#part2{
+    height: 100%;
+    width: 67%;
+    background-color: rgb(0, 200, 255);
+    background-image: url(https://d1g9fd6psho9qx.cloudfront.net/wp-content/uploads/2021/11/Top-Female-Models.png);
+    background-size: cover;
+    background-position: centre;
+}
+#overlay{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(113, 86, 93, 0.085);
+}
+#part3{
+    height: 100%;
+    width: 7%;
+   /* background-color: rgb(89, 210, 113);*/
+}
+#text-div{
+    /*height: 300px;*/
+    position: absolute;
+    width: 400px;
+    /*background-color: red;*/
+    left: 7%;
+    top: 50%;
+    transform: translate(0,-50%);
+}
+#text-div>h1{
+    font-size: 95px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    letter-spacing: 8px;
+    line-height: 78px;
+    color: white;
+    text-transform: uppercase;
+}
+#small-img-div{
+    height: 400px;
+    width: 300px;
+   /* background-color: red;*/
+   background-image: url(https://stylesatlife.com/wp-content/uploads/2023/01/Most-beautiful-Kylie-Jenner.jpg);
+   background-size: cover;
+   background-position: centre;
+    position: absolute;
+    top: 50%;
+    right: 5%;
+    transform: translate(0, -50%);
+}
+#vertical-text{
+    position: absolute;
+    transform: rotate(90deg);
+    right: -50%;
+    transform-origin: 0% 0%;
+    top: 0%;
+    /*width: 100%;*/
+    /*background-color: red;*/
+}
+#vertical-text h1{
+    font-size: 70px;
+    font-weight: 900;
+    color: transparent;
+    letter-spacing: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: white;
+}
+#nav{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 450px;
+    left: 7%;
+    top: 5%;
+    /*background-color: red;*/
+
+}
+#nav img{
+    height: 50px;
+
+}
+#nav h5{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
